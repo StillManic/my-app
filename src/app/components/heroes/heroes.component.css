@@ -4,14 +4,13 @@
     list-style-type: none;
     padding: 0;
     width: 15em;
-}
-
-.heroes li {
+  }
+  
+  .heroes li {
     display: flex;
-    list-style-type: none;
-}
-
-.heroes button {
+  }
+  
+  .heroes button {
     flex: 1;
     cursor: pointer;
     position: relative;
@@ -23,35 +22,35 @@
     display: flex;
     align-items: stretch;
     height: 1.8em;
-}
-
-.heroes button:hover {
+  }
+  
+  .heroes button:hover {
     color: #2c3a41;
     background-color: #e6e6e6;
     left: .1em;
-}
-
-.heroes button:active {
+  }
+  
+  .heroes button:active {
     background-color: #525252;
     color: #fafafa;
-}
-
-.heroes button.selected {
+  }
+  
+  .heroes button.selected {
     background-color: black;
     color: white;
-}
-
-.heroes button.selected:hover {
+  }
+  
+  .heroes button.selected:hover {
     background-color: #505050;
     color: white;
-}
-
-.heroes button.selected:active {
+  }
+  
+  .heroes button.selected:active {
     background-color: black;
     color: white;
-}
-
-.heroes .badge {
+  }
+  
+  .heroes .badge {
     display: inline-block;
     font-size: small;
     color: white;
@@ -60,8 +59,8 @@
     line-height: 1em;
     margin-right: .8em;
     border-radius: 4px 0 0 4px;
-}
-
-.heroes .name {
+  }
+  
+  .heroes .name {
     align-self: center;
-}
+  }
